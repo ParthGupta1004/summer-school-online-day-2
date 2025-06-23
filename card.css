@@ -1,0 +1,50 @@
+
+h1 {
+    color: #222;
+    font-size: 24px;
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 10px;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+
+.profile-card {
+    width: 370px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #e9e4e4;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #c0bbcd;
+    text-align: center;
+}
+
+.hobby-list {
+    text-align: left;
+    padding-left: 140px;
+    list-style: filled circle;
+    font-weight: lighter;
+}
+
+.contact p {
+    color: black;
+    text-align: center;
+    margin: 4px 0;
+}
+
+
+a[href]:hover {
+    text-decoration: underline;
+    color: purple;
+}

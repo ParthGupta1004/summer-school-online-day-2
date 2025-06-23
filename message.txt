@@ -1,0 +1,37 @@
+CSS Types and CSS Selectors used in the Profile Card
+
+1.Inline
+Used in <p> tag of bio to change the color of text.
+2.Internal
+Used <style> block inside ppcard.html to define the anchor tag.
+3.External
+Linked card.css file to the html file 
+
+CSS Selectors
+
+1.Element Selector: h1
+ Used to style all <h1> headings.
+ Sets color and font size.
+
+2.Group Selector: h1, h2
+Applies the same font family and margin to both <h1> and <h2> elements.
+
+3.ID Selector: #profile-pic
+Targets the image with id="profile-pic".
+Applies width, height, border, and centers the image.
+
+4.Class Selector: .profile-Card
+Styles the main container div with class="profile-card".
+Adds padding, background color, border, shadow, and centers the card.
+
+5.Class Selector: .hobby-list
+Targets the <ul> element containing the hobbies.
+Aligns the list to the left, indents it, sets the bullet style and font weight.
+
+6.Descendant Selector: .contact p
+Targets all <p> tags inside an element with class="contact".
+Sets color, text alignment, and reduces spacing between lines.
+
+7.Attribute Selector with Pseudo-class: a[href]:hover
+Targets anchor <a> tags that have an href attribute, only when hovered.
+Underlines the link and changes its color to purple.
